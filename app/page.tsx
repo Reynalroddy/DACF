@@ -1,6 +1,4 @@
 "use client";
-
-import { Header } from "@/components/custom/header";
 import { HeroSection } from "@/components/custom/hero-section";
 import { StatsSection } from "@/components/custom/stats-section";
 import { MissionSection } from "@/components/custom/mission-section";
@@ -14,6 +12,7 @@ import { SponsorsSection } from "@/components/custom/sponsors-section";
 import { NewsletterSection } from "@/components/custom/newsletter-section";
 import { Footer } from "@/components/custom/footer";
 import { ScrollToTop } from "@/components/ui/scroll-to-top";
+import { Header } from "@/components/custom/header";
 
 export default function Home() {
   return (
